@@ -2,7 +2,7 @@
 a basic graph object that handles crawling the web for content using basic graph theory.
 
 Example usage:
-$ python page.py http://whatever.com ...
+$ python page.py http://somesite.com ...
 
 `...` dots represent other url links you can enter in
 """
