@@ -9,6 +9,8 @@ $ python page.py http://somesite.com ...
 __author__ = "Alexander Balzer <abalzer22@gmail.com>"
 __version__ = "0.1.0"
 
+# NOTE: this is a very basic version I wriote at first. I have since modified to be scalable across n nodes that all use a redis cache to sync crawling and placing data in a sharded mongo database
+
 diff_hash = {} # if the value is already in the hash then skip it
 
 # TODO: turn diff_hash into a stronger data structure. because this hash table holds all the graph information for your web pages. you should be able to write this.
